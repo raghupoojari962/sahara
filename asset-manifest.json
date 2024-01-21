@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/sahara/static/css/main.58e74794.css",
+    "main.js": "/sahara/static/js/main.b1f97dae.js",
+    "static/media/ecom.png": "/sahara/static/media/ecom.5e8fcbb579a392a20408.png",
+    "static/media/BG.jpg": "/sahara/static/media/BG.41dab50e6713ee78c2c3.jpg",
+    "static/media/hero.png": "/sahara/static/media/hero.78acc8b3f0aaac1cb4b2.png",
+    "static/media/logo2.jpg": "/sahara/static/media/logo2.0d67e755957b78637deb.jpg",
+    "static/media/desktop.jpg": "/sahara/static/media/desktop.acf5387b6f6ec2d370c2.jpg",
+    "static/media/mobile.png": "/sahara/static/media/mobile.e6c0ecf2504e4014d2ad.png",
+    "index.html": "/sahara/index.html",
+    "main.58e74794.css.map": "/sahara/static/css/main.58e74794.css.map",
+    "main.b1f97dae.js.map": "/sahara/static/js/main.b1f97dae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58e74794.css",
+    "static/js/main.b1f97dae.js"
+  ]
+}
