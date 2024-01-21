@@ -1,0 +1,80 @@
+.con{
+    width: auto;
+    height: 100vh;
+    background-color: rgba(16, 11, 11, 0.345);
+    
+}
+.h1{
+    width: auto;
+    text-align: center;
+    padding: 15px;
+}
+.h1 h1{
+    color: black;
+}
+.form{
+    
+    display: block;
+    background-color: rgb(26, 28, 32);
+    width: 30%;
+    height: 60%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+}
+.mapsection{
+    width: 90vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+.map{
+    width: 70vw;
+    height: 22vh;
+}
+.mid{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 10px;
+}
+.mid input{
+    margin: 20px;
+    padding: 12px;
+}
+.mid textarea{
+    margin: 20px;
+    padding: 12px; 
+}
+.submit{
+    text-align: center;
+    width: 10vw;
+    background-color: green;
+}
+
+@media only screen and (max-width: 1040px) {
+    .form{
+    
+        display: block;
+        background-color: rgb(26, 28, 32);
+        width: 70%;
+        height: 60%;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+       
+    }
+    .submit{
+        text-align: center;
+        width: 20vw;
+        background-color: green;
+        padding: 2px;
+    }
+    .map{
+        width: 65vw;
+        height: 22vh;
+    }
+}

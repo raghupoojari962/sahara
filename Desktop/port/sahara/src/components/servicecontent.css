@@ -1,0 +1,79 @@
+.services{
+    height: 100vh;  
+  }
+  .h{
+    align-items: center;
+    text-align: center;
+  }
+  .h h1{
+    color: black;
+  }
+  .head{
+      text-align: center;
+      margin: 10px;
+  }
+  .head h1{
+      color: black;
+  }
+  .sec1{
+      width: 98vw;
+      height: 90vh;
+  }
+  .container{
+      height: 85vh;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 25px;
+  }
+  .card{
+      height: 60vh;
+      margin: 10px;
+      padding: 15px;
+      width: 20vw;
+      border: 2px solid black;
+  }
+  .card img{
+     
+      height: 30vh;
+      width: 20vw;
+  }
+  .buttons{
+      margin: 10px;
+      justify-content: space-between;
+  }
+  .btn1{
+      padding: 5px;
+      color: black;
+      text-decoration: none;
+      border: 2px solid black;
+  }
+  .btn1:hover{
+  background-color:green ;
+  color: white;
+  }
+  @media only screen and (max-width: 1040px) {
+    .container{
+      width: auto;
+      display: block;
+      margin: auto;
+    height: 100vh;
+      overflow: hidden;
+    }
+    .card{
+      height: 17vh;
+      margin: 10px;
+      padding: 15px;
+      width: 85vw;
+      border: 2px solid black;
+      display: flex;}
+  .card img{
+     
+      height: 12vh;
+      width: 20vw;
+  }
+  h4{
+    font-size: .9em;
+  }
+  
+  
+  }

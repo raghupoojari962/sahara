@@ -1,0 +1,34 @@
+.footer{
+    width: auto;
+    height: 30vh;
+    background-color: rgb(26, 22, 22);
+    color: white;
+}
+.footer .m{
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+.bottom{
+    padding: 30px;
+   display: grid;
+   grid-template-columns: repeat(3, 2fr);
+}
+.copyright{
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1040px) {
+    .bottom{
+        display: block;
+        padding: 5px;
+    }
+    .footer{
+        width: auto;
+        height: 35vh;
+        background-color: rgb(26, 22, 22);
+        color: white;
+    }
+}

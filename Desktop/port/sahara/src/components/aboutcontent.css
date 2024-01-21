@@ -1,0 +1,51 @@
+body{
+  background-color: rgb(129, 142, 152);
+}
+
+
+.about{
+  display: flex;
+  align-items: center;
+  text-align: center;
+ margin: auto;
+  width: 80%;
+  height: 80vh;
+ margin-top: 3%;
+ margin-bottom: 3%;
+  background-color: rgba(16, 11, 11, 0.345);
+}
+.about h1{
+  font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+  color: black;
+  padding: 20px;
+}
+.about p{
+  font-size: 1.5rem;
+  margin: 10px;
+  font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+.ban img{
+width: 100%;
+height: 100%;
+
+}
+.det .but{
+  width: 80px;
+  margin: auto; 
+}
+.det .but h5{
+  border: 2px solid black;
+  text-decoration: none;
+  background-color: white;
+  padding: 3px;
+  color: black;
+}
+.det .but a{
+  text-decoration: none;
+}
+.det .but h5:hover{
+  background-color: green;
+  color: black;
+}

@@ -1,0 +1,60 @@
+.herosec{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+   overflow: hidden;
+}
+.text{
+    margin: auto;
+   
+}
+.text h3, h2{
+    color: rgb(35, 21, 9);
+}
+.img{
+    height: 92vh;
+    width: 50vw;
+    background-image: url(./hero.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+}
+.buttons{
+    display: flex;
+}
+
+.btn{
+    text-align: center;
+    width: 6vw;
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    color: black;
+    background-color: rgb(183, 213, 230);
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+.btn:hover{
+    background-color: green;
+    cursor: pointer;
+    color: white;
+   
+}
+@media only screen and (max-width: 1040px) {
+    .text{
+        padding: 20px;
+    }
+    .btn{
+        text-align: center;
+        width: 15vw;
+        border: 2px solid black;
+        padding: 5px;
+        margin-top: 5px;
+        margin-right: 5px;
+        color: black;
+        background-color: rgb(183, 213, 230);
+    }
+}
